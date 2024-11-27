@@ -5,4 +5,27 @@ body{
 
 .bg_gray{
     background-color: #c0c0c0;
+    border-bottom: 1px;
+    border-color: darkgray;
+    border-style: inset;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixalogin{
+    opacity: 75%;
+    background-color: #efeeee;
+    height: 75vh;
+    width: 85vw;
+    margin-top: 9vh;
+    border: 1px;
+    border-style:solid;
+    border-color: #bdbdbd;
 }
