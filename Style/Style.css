@@ -1,5 +1,5 @@
 body{
-    background-image: url(/ValeImobiliaria/img/Fundo.png);
+    background-image: url(/img/Fundo.png);
     background-size: cover;
     object-fit: cover;
     font-family: 'Times New Roman', Times;
@@ -8,7 +8,7 @@ body{
 .bg_gray{
     background-color: #c0c0c0;
     border-bottom: 1px;
-    border-color: darkgray;
+    border-color: #bdbdbd;
     border-style: inset;
     border-top: none;
     border-left: none;
@@ -22,7 +22,6 @@ body{
 }
 
 .caixalogin{
-    opacity: 75%;
     background-color: #efeeee;
     height: 75vh;
     width: 85vw;
@@ -30,6 +29,7 @@ body{
     border: 1px;
     border-style:solid;
     border-color: #bdbdbd;
+    background-position: center;
 }
 
 .emaillogin{
@@ -37,13 +37,14 @@ body{
 }
 
 .imagemlogin{
-    background-image: url(/ValeImobiliaria/img/ImgLogin.png);
+    background-image: url(/img/ImgLogin.png);
     width: 100%;
     height: 100%;
     background-size: cover;
     object-fit: cover;
     border-style: solid;
     border-color: #bdbdbd;
+    background-position: center;
 }
 
 .autoh{
