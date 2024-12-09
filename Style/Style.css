@@ -1,5 +1,4 @@
 body{
-    background-image: url(/img/Fundo.png);
     background-size: cover;
     object-fit: cover;
     font-family: 'Times New Roman', Times;
@@ -15,6 +14,17 @@ body{
     border-right: none;
 }
 
+.bg_box{
+    margin-top: 5vh;
+    background-color: lightgrey;
+    border-bottom: 3px;
+    border-top: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style:solid;
+    border-color: #bdbdbd;
+    padding: 5px;
+}
 .center{
     display: flex;
     align-items: center;
@@ -50,4 +60,28 @@ body{
 .autoh{
     height: 74vh;
     padding-top: 10px;
+}
+
+#bg_black{
+    background-color: black;
+}
+
+.card1{
+    min-height: 588px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.carousel-indicators{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.card:hover{
+    transform: scale(1.01);
+}
+
+.card{
+    transition: transform 0.3s;
 }
