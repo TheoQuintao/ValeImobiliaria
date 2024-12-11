@@ -60,6 +60,7 @@ body{
 
 .card2{
     min-height: 318px;
+    max-height: 318px;
 }
 
 .carousel-indicators{
@@ -85,4 +86,8 @@ body{
 
 .espaço{
     margin-top: 3vh;
+}
+
+.cardcidades{
+    height: 100px;
 }
