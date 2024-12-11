@@ -1,13 +1,11 @@
 body{
-    background-size: cover;
-    object-fit: cover;
     font-family: 'Times New Roman', Times;
 }
 
 .bg_gray{
-    background-color: #c0c0c0;
+    background-color: #b3fdc3;
     border-bottom: 1px;
-    border-color: #bdbdbd;
+    border-color: #009673;
     border-style: inset;
     border-top: none;
     border-left: none;
@@ -16,13 +14,6 @@ body{
 
 .bg_box{
     margin-top: 5vh;
-    background-color: lightgrey;
-    border-bottom: 3px;
-    border-top: 3px;
-    border-left: 3px;
-    border-right: 3px;
-    border-style:solid;
-    border-color: #bdbdbd;
     padding: 5px;
 }
 .center{
@@ -32,13 +23,13 @@ body{
 }
 
 .caixalogin{
-    background-color: #efeeee;
+    background-color: #b3fdc3;
     height: 75vh;
     width: 85vw;
     margin-top: 9vh;
     border: 1px;
     border-style:solid;
-    border-color: #bdbdbd;
+    border-color: #009673;
     background-position: center;
 }
 
@@ -53,7 +44,7 @@ body{
     background-size: cover;
     object-fit: cover;
     border-style: solid;
-    border-color: #bdbdbd;
+    border-color: #009673;
     background-position: center;
 }
 
@@ -84,4 +75,8 @@ body{
 
 .card{
     transition: transform 0.3s;
+}
+
+.linha{
+    
 }
