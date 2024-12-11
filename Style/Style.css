@@ -1,5 +1,6 @@
 body{
     font-family: 'Times New Roman', Times;
+    
 }
 
 .bg_gray{
@@ -88,6 +89,14 @@ body{
     margin-top: 3vh;
 }
 
+.cardcidades img{
+    max-height: 350px;
+    max-width: 300px;
+    background-size: cover;
+    object-fit: cover;
+}
+
 .cardcidades{
-    height: 100px;
+    max-height: 450px;
+    max-width: 300px;
 }
